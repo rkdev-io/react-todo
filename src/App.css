@@ -1,0 +1,64 @@
+body {
+  text-align: center;
+  text-transform: capitalize;
+  background: #a8dadc;
+  letter-spacing: 1px;
+}
+h1 {
+  text-transform: uppercase;
+}
+.container {
+  height: 100%;
+  width: 40vw;
+  margin: auto;
+}
+.btn-container {
+  display: flex;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto 32px;
+  padding: 5px 10px;
+  height: 42px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  /* font-weight: 500; */
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: auto 2px 32px;
+  cursor: pointer;
+
+}
+
+button[type="add"] {
+  background: #457b9d;
+}
+button[type="clr"] {
+  background: #e76f51;
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+}
+
+.todoList {
+  height: 100%;
+  width: 100%;
+  background-color: #bde0fe;
+  margin: 10px 0;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
